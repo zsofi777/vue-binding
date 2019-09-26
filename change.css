@@ -1,0 +1,60 @@
+:root {
+  background: url("/assets/sea.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper{
+  display:grid;
+  grid-template-rows: 40%; 
+  grid-gap:1em;
+  width:100%;
+  justify-items:center;
+  
+}
+
+.title {
+  height: 100px;
+  width: 200px;
+  background: url("/assets/cindy.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1px;
+  padding: 40px;
+}
+
+.change {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: monospace; 
+  margin-top: 20px;
+  color: white;
+}
+
+button {
+  background: url(/assets/flo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 10%;
+  height: 150px;
+  width: 100px;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+button:focus {
+  background: url(/assets/flo2.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none; 
+  outline: 0;
+  opacity: 0.9;
+}
+
+button:hover {
+  filter: drop-shadow(0 0 0.75rem rgb(220, 20, 170));
+}
